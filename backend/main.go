@@ -16,6 +16,7 @@ func serveWs(pool *websocket.Pool, w http.ResponseWriter, r *http.Request) {
 	client := &websocket.Client{
 		Conn: conn,
 		Pool: pool,
+		Username: "chocapic",
 	}
 
 	pool.Register <- client
