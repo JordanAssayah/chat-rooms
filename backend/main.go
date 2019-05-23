@@ -3,8 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
-
-	"github.com/TutorialEdge/realtime-chat-go-react/pkg/websocket"
+	"JordanAssayah/chat-rooms/pkg/websocket"
 )
 
 func serveWs(pool *websocket.Pool, w http.ResponseWriter, r *http.Request) {

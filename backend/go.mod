@@ -1,3 +1,3 @@
-module github.com/TutorialEdge/realtime-chat-go-react
+module JordanAssayah/chat-rooms
 
 require github.com/gorilla/websocket v1.4.0
